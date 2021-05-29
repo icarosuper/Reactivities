@@ -5,6 +5,7 @@ const api = axios.create({
 	baseURL: 'http://localhost:5000/api',
 })
 
+//todo REMOVER ISSO
 // api.interceptors.response.use(async res => {
 // 	try {
 // 		await new Promise(resolve => setTimeout(resolve, 500));
